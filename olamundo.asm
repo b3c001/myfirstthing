@@ -3,7 +3,8 @@ ola: db "ola mundo" ,0xa
 
 section .text
 global _start
-start:
+_start:
+
 mov ecx, ola
 mov edx, 10
 mov ebx, 1
